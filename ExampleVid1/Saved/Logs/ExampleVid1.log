@@ -820,3 +820,235 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.12.08-02.01.04:410][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000007 seconds (found 0 objects)
 [2019.12.08-02.01.04:410][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000068 seconds (updated 0 objects)
 [2019.12.08-02.01.05:833][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.12.08-02.07.45:747][537]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.08-02.08.27:312][509]LogRenderer: Reallocating scene render targets to support 1224x436 Format 10 NumSamples 1 (Frame:758).
+[2019.12.08-02.09.05:257][899]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={4345E1A1-4EDC-AFB0-A7AC-89A3FEB62887}
+[2019.12.08-02.09.08:561][219]LogActorFactory: Actor Factory created Cube
+[2019.12.08-02.09.09:230][264]LogActorFactory: Actor Factory created Cube
+[2019.12.08-02.09.12:920][615]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.12.08-02.09.13:654][694]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2019.12.08-02.09.21:858][ 67]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.08-02.10.31:478][ 59]LogMaterial: Display: Missing cached shader map for material LayerVisMaterial, compiling. 
+[2019.12.08-02.10.31:517][ 59]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 8
+[2019.12.08-02.10.31:517][ 59]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 5
+[2019.12.08-02.10.31:517][ 59]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 2
+[2019.12.08-02.10.31:517][ 59]LogMaterial: Display: Missing cached shader map for material SelectBrushMaterial, compiling. 
+[2019.12.08-02.10.31:574][ 59]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 38
+[2019.12.08-02.10.31:574][ 59]LogMaterial: Display: Missing cached shader map for material SelectBrushMaterial, compiling. 
+[2019.12.08-02.10.31:620][ 59]LogMaterial: Display: Missing cached shader map for material MaskBrushMaterial, compiling. 
+[2019.12.08-02.10.31:654][ 59]LogMaterial: Display: Missing cached shader map for material ColorMaskBrushMaterial, compiling. 
+[2019.12.08-02.10.31:706][ 59]LogMaterial: Display: Missing cached shader map for material LandscapeLayerUsageMaterial, compiling. 
+[2019.12.08-02.10.31:779][ 59]LogMaterial: Display: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2019.12.08-02.10.31:809][ 59]LogMaterial: Display: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2019.12.08-02.10.31:843][ 59]LogMaterial: Display: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2019.12.08-02.10.31:880][ 59]LogMaterial: Display: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2019.12.08-02.10.31:915][ 59]LogMaterial: Display: Missing cached shader map for material AlphaBrushMaterial, compiling. 
+[2019.12.08-02.10.31:955][ 59]LogMaterial: Display: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2019.12.08-02.10.31:996][ 59]LogMaterial: Display: Missing cached shader map for material MaskBrushMaterial, compiling. 
+[2019.12.08-02.10.32:031][ 59]LogTexture: Display: Building textures: Texture2D_2 (G8, 128X128)
+[2019.12.08-02.10.32:998][ 91]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 416
+[2019.12.08-02.10.33:043][ 93]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 406
+[2019.12.08-02.10.33:169][ 98]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 396
+[2019.12.08-02.10.34:872][151]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 386
+[2019.12.08-02.10.35:667][197]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 376
+[2019.12.08-02.10.37:882][350]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 366
+[2019.12.08-02.10.38:704][407]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 356
+[2019.12.08-02.10.38:968][425]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 346
+[2019.12.08-02.10.41:054][570]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 336
+[2019.12.08-02.10.41:368][592]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.12.08-02.10.41:647][606]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 326
+[2019.12.08-02.10.42:361][658]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 316
+[2019.12.08-02.10.44:383][809]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 306
+[2019.12.08-02.10.44:529][820]LogSlate: FSceneViewport::OnFocusLost() reason 1
+[2019.12.08-02.10.45:982][897]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 296
+[2019.12.08-02.10.46:431][920]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 286
+[2019.12.08-02.10.46:546][925]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 276
+[2019.12.08-02.10.49:336][ 37]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 266
+[2019.12.08-02.10.50:055][ 85]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 256
+[2019.12.08-02.10.51:060][161]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 246
+[2019.12.08-02.10.51:524][187]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 236
+[2019.12.08-02.10.52:202][228]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 226
+[2019.12.08-02.10.52:296][233]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2019.12.08-02.10.53:838][321]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 216
+[2019.12.08-02.10.55:408][411]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 206
+[2019.12.08-02.10.56:129][456]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 196
+[2019.12.08-02.10.57:482][551]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 186
+[2019.12.08-02.10.58:653][585]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 176
+[2019.12.08-02.10.58:653][585]LogSlate: Window 'Tutorials' being destroyed
+[2019.12.08-02.10.59:781][624]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 166
+[2019.12.08-02.11.00:878][654]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 156
+[2019.12.08-02.11.01:981][677]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 146
+[2019.12.08-02.11.03:982][679]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 136
+[2019.12.08-02.11.04:116][679]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 126
+[2019.12.08-02.11.05:274][694]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={B27F6A59-4616-A3FE-3239-E4869396146C}
+[2019.12.08-02.11.05:588][697]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 116
+[2019.12.08-02.11.07:255][764]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 106
+[2019.12.08-02.11.09:156][860]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 96
+[2019.12.08-02.11.09:793][894]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 86
+[2019.12.08-02.11.10:432][925]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 76
+[2019.12.08-02.11.12:170][ 10]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 66
+[2019.12.08-02.11.13:352][ 72]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 56
+[2019.12.08-02.11.13:701][ 90]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 46
+[2019.12.08-02.11.15:883][199]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 36
+[2019.12.08-02.11.16:607][236]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 26
+[2019.12.08-02.11.18:567][333]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 19
+[2019.12.08-02.11.19:110][358]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 14
+[2019.12.08-02.11.20:259][417]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2019.12.08-02.11.20:294][420]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 10
+[2019.12.08-02.11.20:369][426]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 7
+[2019.12.08-02.11.20:433][430]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 5
+[2019.12.08-02.11.21:270][485]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 3
+[2019.12.08-02.11.21:581][502]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2019.12.08-02.11.22:362][542]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2019.12.08-02.11.32:688][825]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2019.12.08-02.11.33:610][920]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.08-02.11.44:468][724]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.08-02.12.00:268][143]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.08-02.12.07:410][390]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.08-02.12.09:687][623]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.12.08-02.12.11:081][777]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.12.08-02.12.14:242][983]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.08-02.12.20:593][592]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.08-02.12.22:898][794]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall4)
+[2019.12.08-02.12.24:675][908]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.08-02.12.25:984][912]Cmd: SELECT NONE
+[2019.12.08-02.12.26:015][914]Cmd: SELECT NONE
+[2019.12.08-02.12.26:633][975]Cmd: SELECT NONE
+[2019.12.08-02.12.27:032][ 22]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TemplateLabel)
+[2019.12.08-02.12.28:390][177]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.12.08-02.12.28:697][207]Cmd: SELECT NONE
+[2019.12.08-02.12.29:054][249]Cmd: SELECT NONE
+[2019.12.08-02.12.31:389][526]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.12.08-02.12.32:456][647]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.12.08-02.12.52:086][829]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.12.08-02.12.52:530][879]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.12.08-02.12.54:765][141]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2019.12.08-02.13.02:880][829]LogEditorViewport: Clicking on Actor (context menu): Brush (Box Brush)
+[2019.12.08-02.13.03:346][829]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.08-02.13.04:158][849]Cmd: SELECT NONE
+[2019.12.08-02.13.07:698][  0]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.08-02.13.07:972][ 28]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.08-02.13.08:005][ 28]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.08-02.13.09:034][147]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.08-02.13.11:582][388]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.08-02.13.23:278][412]LogSlate: Window 'Editor Preferences' being destroyed
+[2019.12.08-02.13.23:303][412]LogSlate: Window 'Editor Preferences' being destroyed
+[2019.12.08-02.13.39:342][461]LogSlate: Took 0.000175 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.12.08-02.13.46:804][536]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.08-02.13.48:070][658]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.08-02.13.48:635][659]LogUObjectHash: Compacting FUObjectHashTables data took   2.90ms
+[2019.12.08-02.13.48:824][659]LogSavePackage: Moving '../../../../../../Users/Emiliano/Documents/UnrealProjects/ExampleVid1/Saved/FirstPersonExampleMap_Auto11C808E1E437D3B6FE1F885B7C9AACE40.tmp' to '../../../../../../Users/Emiliano/Documents/UnrealProjects/ExampleVid1/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap'
+[2019.12.08-02.13.48:832][659]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.227
+[2019.12.08-02.13.48:832][659]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.227
+[2019.12.08-02.13.49:191][677]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.08-02.14.23:545][493]LogSlate: Window 'Editor Preferences' being destroyed
+[2019.12.08-02.14.23:558][493]LogSlate: Window 'Editor Preferences' being destroyed
+[2019.12.08-02.14.24:345][504]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.12.08-02.14.24:768][545]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.12.08-02.14.25:566][635]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.12.08-02.14.25:609][635]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.08-02.14.27:511][851]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.12.08-02.14.28:035][910]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.12.08-02.14.30:367][180]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.12.08-02.14.31:319][290]Cmd: SELECT NONE
+[2019.12.08-02.14.31:519][314]Cmd: SELECT NONE
+[2019.12.08-02.14.31:711][337]Cmd: SELECT NONE
+[2019.12.08-02.14.32:060][378]Cmd: SELECT NONE
+[2019.12.08-02.14.32:674][444]Cmd: SELECT NONE
+[2019.12.08-02.14.34:502][619]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.08-02.14.35:708][746]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.12.08-02.14.36:079][786]Cmd: SELECT NONE
+[2019.12.08-02.14.36:794][871]Cmd: SELECT NONE
+[2019.12.08-02.14.38:328][ 39]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.08-02.14.38:414][ 46]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2019.12.08-02.14.41:534][ 46]LogSlate: Window 'Save Content' being destroyed
+[2019.12.08-02.15.08:848][240]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.12.08-02.15.11:379][488]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.12.08-02.15.12:415][606]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.12.08-02.15.49:164][304]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.08-02.15.51:433][563]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.08-02.15.56:602][717]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.08-02.15.59:628][ 22]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.08-02.16.09:251][559]LogEditorViewport: Clicking Background
+[2019.12.08-02.16.10:370][692]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
+[2019.12.08-02.16.10:967][696]LogEditorViewport: Clicking Background
+[2019.12.08-02.16.12:900][746]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.08-02.16.14:738][949]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.08-02.16.17:555][263]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.08-02.16.19:081][419]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.08-02.16.53:601][724]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.08-02.17.05:267][737]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2019.12.08-02.17.05:325][737]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.08-02.17.10:580][345]LogSlate: FSceneViewport::OnFocusLost() reason 1
+[2019.12.08-02.17.12:015][422]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.08-02.17.13:429][566]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.08-02.17.15:145][737]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.08-02.17.17:391][960]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.08-02.17.19:165][123]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.08-02.17.21:365][319]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.08-02.17.22:930][462]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.08-02.17.27:361][623]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.08-02.17.30:979][  2]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.12.08-02.17.31:399][ 36]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.08-02.18.01:052][376]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2019.12.08-02.18.19:528][699]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.08-02.18.25:620][990]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.08-02.18.33:073][403]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.08-02.18.38:954][758]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.12.08-02.18.39:943][864]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.12.08-02.18.40:438][918]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TemplateLabel)
+[2019.12.08-02.18.45:163][104]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.08-02.18.51:373][694]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.12.08-02.18.57:336][331]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube21)
+[2019.12.08-02.19.00:181][636]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.08-02.19.14:988][845]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.08-02.19.23:025][642]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.08-02.19.29:656][357]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.08-02.19.37:852][235]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.08-02.19.46:991][876]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.08-02.19.54:420][546]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.08-02.19.58:525][986]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.08-02.20.03:356][168]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall3)
+[2019.12.08-02.20.04:885][204]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (PostProcessVolume)
+[2019.12.08-02.20.08:338][462]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.08-02.21.12:426][294]LogRenderer: Reallocating scene render targets to support 1224x448 Format 10 NumSamples 1 (Frame:40353).
+[2019.12.08-02.21.12:456][295]LogRenderer: Reallocating scene render targets to support 1224x464 Format 10 NumSamples 1 (Frame:40355).
+[2019.12.08-02.21.12:494][296]LogRenderer: Reallocating scene render targets to support 1224x480 Format 10 NumSamples 1 (Frame:40357).
+[2019.12.08-02.21.12:523][297]LogRenderer: Reallocating scene render targets to support 1224x484 Format 10 NumSamples 1 (Frame:40359).
+[2019.12.08-02.21.12:614][303]LogRenderer: Reallocating scene render targets to support 1224x492 Format 10 NumSamples 1 (Frame:40365).
+[2019.12.08-02.21.12:638][304]LogRenderer: Reallocating scene render targets to support 1224x496 Format 10 NumSamples 1 (Frame:40367).
+[2019.12.08-02.21.12:669][305]LogRenderer: Reallocating scene render targets to support 1224x508 Format 10 NumSamples 1 (Frame:40369).
+[2019.12.08-02.21.12:699][306]LogRenderer: Reallocating scene render targets to support 1224x528 Format 10 NumSamples 1 (Frame:40371).
+[2019.12.08-02.21.12:732][307]LogRenderer: Reallocating scene render targets to support 1224x540 Format 10 NumSamples 1 (Frame:40373).
+[2019.12.08-02.21.12:876][321]LogRenderer: Reallocating scene render targets to support 1224x544 Format 10 NumSamples 1 (Frame:40377).
+[2019.12.08-02.21.19:541][584]LogRenderer: Reallocating scene render targets to support 1320x544 Format 10 NumSamples 1 (Frame:40647).
+[2019.12.08-02.21.41:527][299]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.12.08-02.21.42:890][415]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.08-02.21.47:602][738]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.12.08-02.21.48:219][806]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.12.08-02.21.51:303][ 87]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.08-02.22.00:091][195]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.08-02.22.50:274][790]LogActorFactory: Actor Factory created SM_Chair
+[2019.12.08-02.22.50:703][822]LogActorFactory: Actor Factory created SM_Chair
+[2019.12.08-02.22.52:072][888]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.08-02.22.56:651][124]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.08-02.22.59:916][385]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.12.08-02.23.08:051][556]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.08-02.23.12:633][727]LogActorFactory: Actor Factory created SM_MatPreviewMesh_02
+[2019.12.08-02.23.13:442][772]LogActorFactory: Actor Factory created SM_MatPreviewMesh_02
+[2019.12.08-02.23.13:886][818]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.12.08-02.23.25:414][127]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.08-02.23.25:517][139]Cmd: MODE SCALEGRID=0
+[2019.12.08-02.23.26:744][262]Cmd: MODE ROTGRID=0
+[2019.12.08-02.23.36:374][382]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.12.08-02.23.42:124][613]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.08-02.23.46:314][799]LogRenderer: Reallocating scene render targets to support 1320x708 Format 10 NumSamples 1 (Frame:48039).
+[2019.12.08-02.24.00:741][988]LogSlate: Window 'Content Browser' being destroyed
+[2019.12.08-02.24.00:752][988]LogSlate: Window 'Content Browser' being destroyed
+[2019.12.08-02.24.06:336][295]LogSlate: Window 'Content Browser' being destroyed
+[2019.12.08-02.24.06:345][295]LogSlate: Window 'Content Browser' being destroyed
+[2019.12.08-02.24.33:572][338]LogSlate: Took 0.008597 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.12.08-02.25.01:643][ 53]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2019.12.08-02.25.01:842][ 53]LogSavePackage: Moving '../../../../../../Users/Emiliano/Documents/UnrealProjects/ExampleVid1/Saved/FirstPersonExampleMap_Auto22D91072140D9AE827D26FEB6E088E345.tmp' to '../../../../../../Users/Emiliano/Documents/UnrealProjects/ExampleVid1/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto2.umap'
+[2019.12.08-02.25.01:926][ 53]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.311
+[2019.12.08-02.25.01:926][ 53]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.311
