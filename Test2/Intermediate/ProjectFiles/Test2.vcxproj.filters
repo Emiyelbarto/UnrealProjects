@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Test2.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{30C07A75-CA39-4B27-8505-4AE4B2EB81A0}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Test2.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\Test2Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{7CC55D46-8691-458F-8304-C309F85CF54C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Config\Android">
+      <UniqueIdentifier>{4D654EC0-0CDF-4360-8202-3AC40F9A5E82}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Android\AndroidEngine.ini">
+      <Filter>Config\Android</Filter>
+    </None>
+    <Filter Include="Config\IOS">
+      <UniqueIdentifier>{1E7A3E62-66B9-496C-8831-953189BC5B8F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\IOS\IOSEngine.ini">
+      <Filter>Config\IOS</Filter>
+    </None>
+    <Filter Include="Config\Linux">
+      <UniqueIdentifier>{93210255-BDD4-428C-8756-6D78272EF893}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Linux\LinuxEngine.ini">
+      <Filter>Config\Linux</Filter>
+    </None>
+    <Filter Include="Config\Mac">
+      <UniqueIdentifier>{6E83C90B-7683-48B3-8428-9F9B61FCFD6F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Mac\MacEngine.ini">
+      <Filter>Config\Mac</Filter>
+    </None>
+    <Filter Include="Config\PS4">
+      <UniqueIdentifier>{3ECE66F4-54DF-4130-820D-E8DDAD9441D8}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\PS4\PS4Engine.ini">
+      <Filter>Config\PS4</Filter>
+    </None>
+    <Filter Include="Config\Switch">
+      <UniqueIdentifier>{58088902-B31B-476A-9E8F-8DD56118F7DF}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Switch\SwitchEngine.ini">
+      <Filter>Config\Switch</Filter>
+    </None>
+    <Filter Include="Config\Windows">
+      <UniqueIdentifier>{9303E08A-E7E6-405E-B898-586A1B4E96B8}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Windows\WindowsEngine.ini">
+      <Filter>Config\Windows</Filter>
+    </None>
+    <Filter Include="Config\XboxOne">
+      <UniqueIdentifier>{9EE1B0A0-B860-4C97-AE53-DE081B705FC7}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\XboxOne\XboxOneEngine.ini">
+      <Filter>Config\XboxOne</Filter>
+    </None>
+    <Filter Include="Source\Test2">
+      <UniqueIdentifier>{8B23E114-01A9-408F-91BC-FB74DD10024A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Test2\Ball.cpp">
+      <Filter>Source\Test2</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Test2\Ball.h">
+      <Filter>Source\Test2</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Test2\Paddle.cpp">
+      <Filter>Source\Test2</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Test2\Paddle.h">
+      <Filter>Source\Test2</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Test2\Paddle_Player_Controller.cpp">
+      <Filter>Source\Test2</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Test2\Paddle_Player_Controller.h">
+      <Filter>Source\Test2</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\Test2\Test2.Build.cs">
+      <Filter>Source\Test2</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Test2\Test2.cpp">
+      <Filter>Source\Test2</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Test2\Test2.h">
+      <Filter>Source\Test2</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Test2\Test2GameModeBase.cpp">
+      <Filter>Source\Test2</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Test2\Test2GameModeBase.h">
+      <Filter>Source\Test2</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\Test2\Brick.h">
+      <Filter>Source\Test2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Test2\BallBound.h">
+      <Filter>Source\Test2</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\Test2\Brick.cpp">
+      <Filter>Source\Test2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test2\BallBound.cpp">
+      <Filter>Source\Test2</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
