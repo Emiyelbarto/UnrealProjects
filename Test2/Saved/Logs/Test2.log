@@ -1616,3 +1616,42 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.07.17-18.09.42:034][832]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
 [2020.07.17-18.10.58:410][ 86]LogSlate: FSceneViewport::OnFocusLost() reason 0
 [2020.07.17-18.11.22:114][434]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2020.07.17-18.14.51:325][212]Candidate modules for hot reload:
+[2020.07.17-18.14.51:325][212]  Test2
+[2020.07.17-18.14.51:326][212]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Test2,3626 Win64 Development -TargetType=Editor -Project="C:/Users/Emiliano/Documents/UnrealProjects/Test2/Test2.uproject" "C:/Users/Emiliano/Documents/UnrealProjects/Test2/Test2.uproject"  -IgnoreJunk]
+[2020.07.17-18.16.00:524][212]CompilerResultsLog: New page: Compilation - Jul 17, 2020, 8:16:00 AM
+[2020.07.17-18.16.00:525][212]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Emiliano\Documents\UnrealProjects).
+[2020.07.17-18.16.00:525][212]CompilerResultsLog: Invalidating makefile for Test2Editor (source file added)
+[2020.07.17-18.16.00:525][212]CompilerResultsLog: Parsing headers for Test2Editor
+[2020.07.17-18.16.00:525][212]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Emiliano\Documents\UnrealProjects\Test2\Test2.uproject" "C:\Users\Emiliano\Documents\UnrealProjects\Test2\Intermediate\Build\Win64\Test2Editor\Development\Test2Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.07.17-18.16.00:527][212]CompilerResultsLog: Reflection code generated for Test2Editor in 39.2664398 seconds
+[2020.07.17-18.16.00:527][212]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.07.17-18.16.00:527][212]CompilerResultsLog: Building 6 actions with 8 processes...
+[2020.07.17-18.16.00:527][212]CompilerResultsLog:   [1/6] Test2.init.gen.cpp
+[2020.07.17-18.16.00:527][212]CompilerResultsLog:   [2/6] BallBound.cpp
+[2020.07.17-18.16.00:527][212]CompilerResultsLog:   [3/6] BallBound.gen.cpp
+[2020.07.17-18.16.00:527][212]CompilerResultsLog:   [4/6] UE4Editor-Test2-3626.lib
+[2020.07.17-18.16.00:527][212]CompilerResultsLog:      Creating library C:\Users\Emiliano\Documents\UnrealProjects\Test2\Intermediate\Build\Win64\UE4Editor\Development\Test2\UE4Editor-Test2-3626.lib and object C:\Users\Emiliano\Documents\UnrealProjects\Test2\Intermediate\Build\Win64\UE4Editor\Development\Test2\UE4Editor-Test2-3626.exp
+[2020.07.17-18.16.00:527][212]CompilerResultsLog:   [5/6] UE4Editor-Test2-3626.dll
+[2020.07.17-18.16.00:527][212]CompilerResultsLog:      Creating library C:\Users\Emiliano\Documents\UnrealProjects\Test2\Intermediate\Build\Win64\UE4Editor\Development\Test2\UE4Editor-Test2-3626.suppressed.lib and object C:\Users\Emiliano\Documents\UnrealProjects\Test2\Intermediate\Build\Win64\UE4Editor\Development\Test2\UE4Editor-Test2-3626.suppressed.exp
+[2020.07.17-18.16.00:527][212]CompilerResultsLog:   [6/6] Test2Editor.target
+[2020.07.17-18.16.00:527][212]CompilerResultsLog: Total time in Parallel executor: 22.81 seconds
+[2020.07.17-18.16.00:527][212]CompilerResultsLog: Total execution time: 68.98 seconds
+[2020.07.17-18.16.00:527][212]LogMainFrame: MainFrame: Module compiling took 69.208 seconds
+[2020.07.17-18.16.00:620][212]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2020.07.17-18.16.00:685][212]LogClass: Could not find existing class BallBound in package /Script/Test2 for HotReload, assuming new class
+[2020.07.17-18.16.00:756][212]LogContentBrowser: Native class hierarchy updated for 'Test2' in 0.0008 seconds. Added 6 classes and 2 folders.
+[2020.07.17-18.16.00:771][212]Display: HotReload successful (3 functions remapped  0 scriptstructs remapped)
+[2020.07.17-18.16.00:983][212]LogUObjectHash: Compacting FUObjectHashTables data took   5.16ms
+[2020.07.17-18.16.01:015][212]LogContentBrowser: Native class hierarchy populated in 0.0152 seconds. Added 2870 classes and 684 folders.
+[2020.07.17-18.16.01:015][212]Display: HotReload took 69.7s.
+[2020.07.17-18.16.01:017][212]Warning: HotReload operation took 69.7s.
+[2020.07.17-18.16.05:497][212]LogSlate: Window 'Add C++ Class' being destroyed
+[2020.07.17-18.16.06:642][213]LogHotReload: New module detected: UE4Editor-Test2-3626.dll
+[2020.07.17-18.16.06:717][214]LogHotReload: Starting Hot-Reload from IDE
+[2020.07.17-18.16.06:933][214]LogUObjectHash: Compacting FUObjectHashTables data took  12.98ms
+[2020.07.17-18.16.06:946][214]LogContentBrowser: Native class hierarchy updated for 'Test2' in 0.0005 seconds. Added 6 classes and 2 folders.
+[2020.07.17-18.16.06:962][214]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.07.17-18.16.07:101][214]LogUObjectHash: Compacting FUObjectHashTables data took  12.66ms
+[2020.07.17-18.16.07:136][214]LogContentBrowser: Native class hierarchy populated in 0.0209 seconds. Added 2870 classes and 684 folders.
+[2020.07.17-18.16.07:142][214]Display: HotReload took  0.4s.

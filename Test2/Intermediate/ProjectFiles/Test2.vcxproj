@@ -480,8 +480,10 @@
     <None Include="..\..\Config\XboxOne\XboxOneEngine.ini" />
     <ClCompile Include="..\..\Source\Test2\Ball.cpp" />
     <ClInclude Include="..\..\Source\Test2\Ball.h" />
+    <ClCompile Include="..\..\Source\Test2\BallBound.cpp" />
     <ClCompile Include="..\..\Source\Test2\Brick.cpp" />
     <ClCompile Include="..\..\Source\Test2\Paddle.cpp" />
+    <ClInclude Include="..\..\Source\Test2\BallBound.h" />
     <ClInclude Include="..\..\Source\Test2\Brick.h" />
     <ClInclude Include="..\..\Source\Test2\Paddle.h" />
     <ClCompile Include="..\..\Source\Test2\Paddle_Player_Controller.cpp" />

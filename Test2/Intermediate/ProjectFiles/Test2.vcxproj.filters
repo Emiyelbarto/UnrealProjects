@@ -115,9 +115,15 @@
     <ClInclude Include="..\..\Source\Test2\Brick.h">
       <Filter>Source\Test2</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\Test2\BallBound.h">
+      <Filter>Source\Test2</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\Test2\Brick.cpp">
+      <Filter>Source\Test2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test2\BallBound.cpp">
       <Filter>Source\Test2</Filter>
     </ClCompile>
   </ItemGroup>
