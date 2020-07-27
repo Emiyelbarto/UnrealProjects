@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -17,17 +17,23 @@ void EmptyLinkFunctionForGeneratedCodePaddle_Player_Controller() {}
 	TEST2_API UClass* Z_Construct_UClass_APaddle_Player_Controller();
 	ENGINE_API UClass* Z_Construct_UClass_APlayerController();
 	UPackage* Z_Construct_UPackage__Script_Test2();
-	TEST2_API UFunction* Z_Construct_UFunction_APaddle_Player_Controller_SetupInputComponent();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	TEST2_API UClass* Z_Construct_UClass_ABall_NoRegister();
 // End Cross Module References
+	DEFINE_FUNCTION(APaddle_Player_Controller::execSetupInputComponent)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->SetupInputComponent();
+		P_NATIVE_END;
+	}
 	void APaddle_Player_Controller::StaticRegisterNativesAPaddle_Player_Controller()
 	{
 		UClass* Class = APaddle_Player_Controller::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "SetupInputComponent", &APaddle_Player_Controller::execSetupInputComponent },
 		};
-		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 	}
 	struct Z_Construct_UFunction_APaddle_Player_Controller_SetupInputComponent_Statics
 	{
@@ -41,7 +47,7 @@ void EmptyLinkFunctionForGeneratedCodePaddle_Player_Controller() {}
 		{ "ModuleRelativePath", "Paddle_Player_Controller.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_APaddle_Player_Controller_SetupInputComponent_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_APaddle_Player_Controller, nullptr, "SetupInputComponent", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_APaddle_Player_Controller_SetupInputComponent_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_APaddle_Player_Controller_SetupInputComponent_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_APaddle_Player_Controller_SetupInputComponent_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_APaddle_Player_Controller, nullptr, "SetupInputComponent", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_APaddle_Player_Controller_SetupInputComponent_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_APaddle_Player_Controller_SetupInputComponent_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_APaddle_Player_Controller_SetupInputComponent()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -75,7 +81,7 @@ void EmptyLinkFunctionForGeneratedCodePaddle_Player_Controller() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_Test2,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_APaddle_Player_Controller_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_APaddle_Player_Controller_SetupInputComponent, "SetupInputComponent" }, // 382629055
+		{ &Z_Construct_UFunction_APaddle_Player_Controller_SetupInputComponent, "SetupInputComponent" }, // 1173538254
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APaddle_Player_Controller_Statics::Class_MetaDataParams[] = {
@@ -90,7 +96,7 @@ void EmptyLinkFunctionForGeneratedCodePaddle_Player_Controller() {}
 		{ "ModuleRelativePath", "Paddle_Player_Controller.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_APaddle_Player_Controller_Statics::NewProp_BallObj = { "BallObj", nullptr, (EPropertyFlags)0x0024080000000001, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APaddle_Player_Controller, BallObj), Z_Construct_UClass_ABall_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_APaddle_Player_Controller_Statics::NewProp_BallObj_MetaData, ARRAY_COUNT(Z_Construct_UClass_APaddle_Player_Controller_Statics::NewProp_BallObj_MetaData)) };
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_APaddle_Player_Controller_Statics::NewProp_BallObj = { "BallObj", nullptr, (EPropertyFlags)0x0024080000000001, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APaddle_Player_Controller, BallObj), Z_Construct_UClass_ABall_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_APaddle_Player_Controller_Statics::NewProp_BallObj_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APaddle_Player_Controller_Statics::NewProp_BallObj_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_APaddle_Player_Controller_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APaddle_Player_Controller_Statics::NewProp_BallObj,
 	};
@@ -105,12 +111,12 @@ void EmptyLinkFunctionForGeneratedCodePaddle_Player_Controller() {}
 		FuncInfo,
 		Z_Construct_UClass_APaddle_Player_Controller_Statics::PropPointers,
 		nullptr,
-		ARRAY_COUNT(DependentSingletons),
-		ARRAY_COUNT(FuncInfo),
-		ARRAY_COUNT(Z_Construct_UClass_APaddle_Player_Controller_Statics::PropPointers),
+		UE_ARRAY_COUNT(DependentSingletons),
+		UE_ARRAY_COUNT(FuncInfo),
+		UE_ARRAY_COUNT(Z_Construct_UClass_APaddle_Player_Controller_Statics::PropPointers),
 		0,
 		0x009002A4u,
-		METADATA_PARAMS(Z_Construct_UClass_APaddle_Player_Controller_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_APaddle_Player_Controller_Statics::Class_MetaDataParams))
+		METADATA_PARAMS(Z_Construct_UClass_APaddle_Player_Controller_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_APaddle_Player_Controller_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_APaddle_Player_Controller()
 	{
@@ -121,7 +127,7 @@ void EmptyLinkFunctionForGeneratedCodePaddle_Player_Controller() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APaddle_Player_Controller, 3731921007);
+	IMPLEMENT_CLASS(APaddle_Player_Controller, 1900874856);
 	template<> TEST2_API UClass* StaticClass<APaddle_Player_Controller>()
 	{
 		return APaddle_Player_Controller::StaticClass();

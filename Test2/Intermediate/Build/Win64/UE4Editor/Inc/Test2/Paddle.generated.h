@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -13,6 +13,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define TEST2_Paddle_generated_h
 
+#define Test2_Source_Test2_Paddle_h_14_SPARSE_DATA
 #define Test2_Source_Test2_Paddle_h_14_RPC_WRAPPERS
 #define Test2_Source_Test2_Paddle_h_14_RPC_WRAPPERS_NO_PURE_DECLS
 #define Test2_Source_Test2_Paddle_h_14_INCLASS_NO_PURE_DECLS \
@@ -20,7 +21,7 @@ private: \
 	static void StaticRegisterNativesAPaddle(); \
 	friend struct Z_Construct_UClass_APaddle_Statics; \
 public: \
-	DECLARE_CLASS(APaddle, APawn, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/Test2"), NO_API) \
+	DECLARE_CLASS(APaddle, APawn, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/Test2"), NO_API) \
 	DECLARE_SERIALIZER(APaddle)
 
 
@@ -29,7 +30,7 @@ private: \
 	static void StaticRegisterNativesAPaddle(); \
 	friend struct Z_Construct_UClass_APaddle_Statics; \
 public: \
-	DECLARE_CLASS(APaddle, APawn, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/Test2"), NO_API) \
+	DECLARE_CLASS(APaddle, APawn, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/Test2"), NO_API) \
 	DECLARE_SERIALIZER(APaddle)
 
 
@@ -67,6 +68,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APaddle); \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	Test2_Source_Test2_Paddle_h_14_PRIVATE_PROPERTY_OFFSET \
+	Test2_Source_Test2_Paddle_h_14_SPARSE_DATA \
 	Test2_Source_Test2_Paddle_h_14_RPC_WRAPPERS \
 	Test2_Source_Test2_Paddle_h_14_INCLASS \
 	Test2_Source_Test2_Paddle_h_14_STANDARD_CONSTRUCTORS \
@@ -78,6 +80,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	Test2_Source_Test2_Paddle_h_14_PRIVATE_PROPERTY_OFFSET \
+	Test2_Source_Test2_Paddle_h_14_SPARSE_DATA \
 	Test2_Source_Test2_Paddle_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
 	Test2_Source_Test2_Paddle_h_14_INCLASS_NO_PURE_DECLS \
 	Test2_Source_Test2_Paddle_h_14_ENHANCED_CONSTRUCTORS \

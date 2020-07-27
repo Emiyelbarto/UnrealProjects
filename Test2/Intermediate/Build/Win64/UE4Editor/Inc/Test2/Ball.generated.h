@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -14,26 +14,15 @@ class UStaticMeshComponent;
 #endif
 #define TEST2_Ball_generated_h
 
+#define Test2_Source_Test2_Ball_h_17_SPARSE_DATA
 #define Test2_Source_Test2_Ball_h_17_RPC_WRAPPERS \
  \
-	DECLARE_FUNCTION(execGetBall) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		*(UStaticMeshComponent**)Z_Param__Result=P_THIS->GetBall(); \
-		P_NATIVE_END; \
-	}
+	DECLARE_FUNCTION(execGetBall);
 
 
 #define Test2_Source_Test2_Ball_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
  \
-	DECLARE_FUNCTION(execGetBall) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		*(UStaticMeshComponent**)Z_Param__Result=P_THIS->GetBall(); \
-		P_NATIVE_END; \
-	}
+	DECLARE_FUNCTION(execGetBall);
 
 
 #define Test2_Source_Test2_Ball_h_17_INCLASS_NO_PURE_DECLS \
@@ -41,7 +30,7 @@ private: \
 	static void StaticRegisterNativesABall(); \
 	friend struct Z_Construct_UClass_ABall_Statics; \
 public: \
-	DECLARE_CLASS(ABall, AActor, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/Test2"), NO_API) \
+	DECLARE_CLASS(ABall, AActor, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/Test2"), NO_API) \
 	DECLARE_SERIALIZER(ABall)
 
 
@@ -50,7 +39,7 @@ private: \
 	static void StaticRegisterNativesABall(); \
 	friend struct Z_Construct_UClass_ABall_Statics; \
 public: \
-	DECLARE_CLASS(ABall, AActor, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/Test2"), NO_API) \
+	DECLARE_CLASS(ABall, AActor, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/Test2"), NO_API) \
 	DECLARE_SERIALIZER(ABall)
 
 
@@ -88,6 +77,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ABall); \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	Test2_Source_Test2_Ball_h_17_PRIVATE_PROPERTY_OFFSET \
+	Test2_Source_Test2_Ball_h_17_SPARSE_DATA \
 	Test2_Source_Test2_Ball_h_17_RPC_WRAPPERS \
 	Test2_Source_Test2_Ball_h_17_INCLASS \
 	Test2_Source_Test2_Ball_h_17_STANDARD_CONSTRUCTORS \
@@ -99,6 +89,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	Test2_Source_Test2_Ball_h_17_PRIVATE_PROPERTY_OFFSET \
+	Test2_Source_Test2_Ball_h_17_SPARSE_DATA \
 	Test2_Source_Test2_Ball_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
 	Test2_Source_Test2_Ball_h_17_INCLASS_NO_PURE_DECLS \
 	Test2_Source_Test2_Ball_h_17_ENHANCED_CONSTRUCTORS \

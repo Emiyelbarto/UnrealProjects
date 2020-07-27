@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -13,26 +13,15 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define TEST2_Paddle_Player_Controller_generated_h
 
+#define Test2_Source_Test2_Paddle_Player_Controller_h_14_SPARSE_DATA
 #define Test2_Source_Test2_Paddle_Player_Controller_h_14_RPC_WRAPPERS \
  \
-	DECLARE_FUNCTION(execSetupInputComponent) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->SetupInputComponent(); \
-		P_NATIVE_END; \
-	}
+	DECLARE_FUNCTION(execSetupInputComponent);
 
 
 #define Test2_Source_Test2_Paddle_Player_Controller_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
  \
-	DECLARE_FUNCTION(execSetupInputComponent) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->SetupInputComponent(); \
-		P_NATIVE_END; \
-	}
+	DECLARE_FUNCTION(execSetupInputComponent);
 
 
 #define Test2_Source_Test2_Paddle_Player_Controller_h_14_INCLASS_NO_PURE_DECLS \
@@ -86,6 +75,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APaddle_Player_Controller); \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	Test2_Source_Test2_Paddle_Player_Controller_h_14_PRIVATE_PROPERTY_OFFSET \
+	Test2_Source_Test2_Paddle_Player_Controller_h_14_SPARSE_DATA \
 	Test2_Source_Test2_Paddle_Player_Controller_h_14_RPC_WRAPPERS \
 	Test2_Source_Test2_Paddle_Player_Controller_h_14_INCLASS \
 	Test2_Source_Test2_Paddle_Player_Controller_h_14_STANDARD_CONSTRUCTORS \
@@ -97,6 +87,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	Test2_Source_Test2_Paddle_Player_Controller_h_14_PRIVATE_PROPERTY_OFFSET \
+	Test2_Source_Test2_Paddle_Player_Controller_h_14_SPARSE_DATA \
 	Test2_Source_Test2_Paddle_Player_Controller_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
 	Test2_Source_Test2_Paddle_Player_Controller_h_14_INCLASS_NO_PURE_DECLS \
 	Test2_Source_Test2_Paddle_Player_Controller_h_14_ENHANCED_CONSTRUCTORS \

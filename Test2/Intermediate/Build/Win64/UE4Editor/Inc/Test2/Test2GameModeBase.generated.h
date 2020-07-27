@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -13,6 +13,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define TEST2_Test2GameModeBase_generated_h
 
+#define Test2_Source_Test2_Test2GameModeBase_h_15_SPARSE_DATA
 #define Test2_Source_Test2_Test2GameModeBase_h_15_RPC_WRAPPERS
 #define Test2_Source_Test2_Test2GameModeBase_h_15_RPC_WRAPPERS_NO_PURE_DECLS
 #define Test2_Source_Test2_Test2GameModeBase_h_15_INCLASS_NO_PURE_DECLS \
@@ -20,7 +21,7 @@ private: \
 	static void StaticRegisterNativesATest2GameModeBase(); \
 	friend struct Z_Construct_UClass_ATest2GameModeBase_Statics; \
 public: \
-	DECLARE_CLASS(ATest2GameModeBase, AGameModeBase, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/Test2"), NO_API) \
+	DECLARE_CLASS(ATest2GameModeBase, AGameModeBase, COMPILED_IN_FLAGS(0 | CLASS_Transient | CLASS_Config), CASTCLASS_None, TEXT("/Script/Test2"), NO_API) \
 	DECLARE_SERIALIZER(ATest2GameModeBase)
 
 
@@ -29,7 +30,7 @@ private: \
 	static void StaticRegisterNativesATest2GameModeBase(); \
 	friend struct Z_Construct_UClass_ATest2GameModeBase_Statics; \
 public: \
-	DECLARE_CLASS(ATest2GameModeBase, AGameModeBase, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/Test2"), NO_API) \
+	DECLARE_CLASS(ATest2GameModeBase, AGameModeBase, COMPILED_IN_FLAGS(0 | CLASS_Transient | CLASS_Config), CASTCLASS_None, TEXT("/Script/Test2"), NO_API) \
 	DECLARE_SERIALIZER(ATest2GameModeBase)
 
 
@@ -65,6 +66,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ATest2GameModeBase); \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	Test2_Source_Test2_Test2GameModeBase_h_15_PRIVATE_PROPERTY_OFFSET \
+	Test2_Source_Test2_Test2GameModeBase_h_15_SPARSE_DATA \
 	Test2_Source_Test2_Test2GameModeBase_h_15_RPC_WRAPPERS \
 	Test2_Source_Test2_Test2GameModeBase_h_15_INCLASS \
 	Test2_Source_Test2_Test2GameModeBase_h_15_STANDARD_CONSTRUCTORS \
@@ -76,6 +78,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	Test2_Source_Test2_Test2GameModeBase_h_15_PRIVATE_PROPERTY_OFFSET \
+	Test2_Source_Test2_Test2GameModeBase_h_15_SPARSE_DATA \
 	Test2_Source_Test2_Test2GameModeBase_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
 	Test2_Source_Test2_Test2GameModeBase_h_15_INCLASS_NO_PURE_DECLS \
 	Test2_Source_Test2_Test2GameModeBase_h_15_ENHANCED_CONSTRUCTORS \
